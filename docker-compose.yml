@@ -1,0 +1,9 @@
+version: "3.7"
+ 
+services:
+  shortlink:
+    image: 'shortlink/shortlinkv1.0.0:latest'
+    build:
+      context: ./
+    ports:
+      - 8082:8080  
